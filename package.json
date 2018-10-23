@@ -1,0 +1,32 @@
+{
+  "name": "mongo-scraper",
+  "version": "1.0.0",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-static": "^1.2.6",
+    "mongojs": "^2.6.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryansteven79/Mongo-Scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryansteven79/Mongo-Scraper/issues"
+  },
+  "homepage": "https://github.com/ryansteven79/Mongo-Scraper#readme",
+  "description": ""
+}
